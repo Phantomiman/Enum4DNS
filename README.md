@@ -18,6 +18,8 @@ Suggestions about this simple tool are welcomed.
 Installation Progress : 
 
 Copy the project link WGET it and give executable permissions.
-
-Best Regards,
-Phantomiman.
+USAGE:
+OS : Linux
+"WGET project"
+Use : chmod +x Enum4DNS
+./Enum4DNS
