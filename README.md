@@ -4,8 +4,7 @@ A Simple DNS enumeration tool for educational purposes.
 
 This code is simple but useful for widening attacking scope of DNS records and enrich the enumeration process on target's DNS records and servers, subdomains.
 
-![image](https://user-images.githubusercontent.com/119011920/203998249-4b51515a-a714-4266-8b25-b27b548b5510.png)
-
+![image](https://user-images.githubusercontent.com/119011920/204002180-56bed27f-78cc-469f-befd-b67b2c4cfd86.png)
 
 Information:
 Environment : Linux
