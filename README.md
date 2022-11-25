@@ -1,5 +1,6 @@
 # Enum4DNS
 A Simple DNS enumeration tool for educational purposes.
+![image](https://user-images.githubusercontent.com/119011920/203998392-0387bbc0-b7c3-4549-b568-5244475f582b.png)
 
 This code is simple but useful for widening attacking scope of DNS records and enrich the enumeration process on target's DNS records and servers, subdomains.
 
