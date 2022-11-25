@@ -20,5 +20,6 @@ Copy the project link WGET it and give executable permissions.
 USAGE:
 OS : Linux
 "WGET project"
-Use : chmod +x Enum4DNS
+chmod +x Enum4DNS
+
 ./Enum4DNS
