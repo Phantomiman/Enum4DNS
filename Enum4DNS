@@ -3,6 +3,9 @@ RED="\e[31m"
 GREEN="\e[32m"
 ENDCOLOR="\e[0m"
 
+#################################################
+#Credit To Phantomiman (SAMI), Sharing with love .
+#################################################
 
 echo "
   ______                      _  _   _____  _   _  _____ 
@@ -14,9 +17,8 @@ echo "
                                                         "
 echo -e "${RED}This tool made by Phantomiman for educational purposes only V1"${ENDCOLOR}"
 _________________________________________________________"
-
-#echo "[+] Default wordlist [*] / Custom Path [Givepath]"
-#read path
+echo -e "${RED}Choose defualt recursive wordlists [*] OR Spesific list[1..5] "${ENDCOLOR}
+read selection
 echo  "[+] Please metion the destination domain, EX: domain.com"
 read choose
 echo -e "\e[32mNS Records ========================================\e[0m"
@@ -25,5 +27,7 @@ echo -e "\e[32mMX Records ========================================\e[0m"
 host -t mx  $choose
 echo " ==========================================================="
 echo -e "${RED}[*] Scanning $choose for A records"${ENDCOLOR}
-for ip in $(cat *.txt); do host $ip.$choose 2>/dev/null;done
-
+for ip in $(cat $selection.txt); do host $ip.$choose;done |grep -v "not found"
+echo -e "${RED}[* PTR SCANNER] Provide 3 octets of the IP address to scan PTR"${ENDCOLOR}
+read ipptr
+for ip in $(seq 100 190);do host $ipptr.$ip;done |grep -v "not found"
