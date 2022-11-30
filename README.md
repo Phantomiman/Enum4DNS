@@ -29,9 +29,15 @@ Upgrades in latest version:
 
 
 PTR Lookups 
-Focusing Only On Found Valuable Information
+
+
+Focusing Only On Found Valuable Information\
+
+
 MX Records
+
 NS Records
+
 Wordlist management : Functionality to choose * all the wordlists in the directory or particular one with the name of it for e.x : list1
 
 
